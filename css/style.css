@@ -1,1 +1,58 @@
 /*  */
+body {
+  padding-top: 100px;
+}
+
+/* custom font-sizes */
+.font-small {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-size: 15px;
+}
+
+.font-large {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .font-small {
+    font-size: 15px;
+  }
+  .font-medium {
+    font-size: 16px;
+  }
+  .font-large {
+    font-size: 17px;
+  }
+}
+
+/* reset navbar-toggler-focus-width  */
+.navbar {
+  --bs-navbar-toggler-focus-width: 0;
+}
+
+.nav-item,
+.dropdown-item {
+  cursor: pointer;
+}
+
+/* offcanvas custom width */
+.offcanvas {
+  width: 250px !important;
+}
+
+@media screen and (min-width: 576px) {
+  /* sm */
+  .offcanvas {
+    width: 275px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* md */
+  .offcanvas {
+    width: 300px !important;
+  }
+}

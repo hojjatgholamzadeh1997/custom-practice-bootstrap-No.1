@@ -44,7 +44,7 @@
       - style.css
     - js
       - bootstrap
-        - bootstrap.min.js
+        - bootstrap.bundle.min.js
     - About.txt
     - index.html
     - README.md
