@@ -30,12 +30,9 @@
   - custom-practice-bootstrap-No.1
     - assets
       - fonts
-        - Shabnam-Thin.ttf
         - Shabnam.ttf
-        - Vazir-Medium.ttf
-        - Vazir-Thin.ttf
-        - Vazir.ttf
       - images
+        - product.jpg
       - favicon.png
     - css
       - bootstrap

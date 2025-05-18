@@ -1,6 +1,12 @@
-/*  */
+/* global */
 body {
-  padding-top: 100px;
+  padding-top: 32.5px;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    padding-top: 38.5px;
+  }
 }
 
 /* custom font-sizes */
@@ -12,19 +18,12 @@ body {
   font-size: 15px;
 }
 
-.font-large {
-  font-size: 16px;
-}
-
 @media screen and (min-width: 992px) {
   .font-small {
     font-size: 15px;
   }
   .font-medium {
     font-size: 16px;
-  }
-  .font-large {
-    font-size: 17px;
   }
 }
 
@@ -38,7 +37,7 @@ body {
   cursor: pointer;
 }
 
-/* offcanvas custom width */
+/* offcanvas custom styles */
 .offcanvas {
   width: 250px !important;
 }
@@ -55,4 +54,48 @@ body {
   .offcanvas {
     width: 300px !important;
   }
+}
+
+/* card custom styles */
+.card:hover {
+  scale: 1.01;
+  transition: 0.5s;
+}
+
+.card-title:hover {
+  color: #E4A11B;
+  cursor: pointer;
+}
+
+.flashing {
+  animation: flashing 4s ease-in-out infinite alternate;
+}
+
+@keyframes flashing {
+  0% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #ffa600, 0 0 15px #ffa600,
+      0 0 20px #ffa600, 0 0 25px #ffa600, 0 0 30px #ffa600;
+  }
+  25% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #2cb2ff, 0 0 15px #2cb2ff,
+      0 0 20px #2cb2ff, 0 0 25px #2cb2ff, 0 0 30px #2cb2ff;
+  }
+  50% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #ff477e, 0 0 15px #ff477e,
+      0 0 20px #ff477e, 0 0 25px #ff477e, 0 0 30px #ff477e;
+  }
+  75% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #12d800, 0 0 15px #12d800,
+      0 0 20px #12d800, 0 0 25px #12d800, 0 0 30px #12d800;
+  }
+  100% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #6d16fa, 0 0 15px #6d16fa,
+      0 0 20px #6d16fa, 0 0 25px #6d16fa, 0 0 30px #6d16fa;
+  }
+}
+
+/* carousel */
+.carousel-caption h5:hover {
+  color: #E4A11B;
+  cursor: pointer;
 }

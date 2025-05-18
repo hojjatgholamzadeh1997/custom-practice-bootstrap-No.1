@@ -1,45 +1,9 @@
 /* fonts */
 @font-face {
-  font-family: Vazir;
-  src: url(../assets/fonts/Vazir.ttf);
-}
-
-.Vazir {
-  font-family: Vazir;
-}
-
-@font-face {
-  font-family: Vazir-Thin;
-  src: url(../assets/fonts/Vazir-Thin.ttf);
-}
-
-.Vazir-Thin {
-  font-family: Vazir-Thin;
-}
-
-@font-face {
-  font-family: Vazir-Medium;
-  src: url(../assets/fonts/Vazir-Medium.ttf);
-}
-
-.Vazir-Medium {
-  font-family: Vazir-Medium;
-}
-
-@font-face {
   font-family: Shabnam;
   src: url(../assets/fonts/Shabnam.ttf);
 }
 
 .Shabnam {
   font-family: Shabnam;
-}
-
-@font-face {
-  font-family: Vazir-Medium;
-  src: url(../assets/fonts/Shabnam-Thin.ttf);
-}
-
-.Shabnam-Thin {
-  font-family: Shabnam-Thin;
 }
