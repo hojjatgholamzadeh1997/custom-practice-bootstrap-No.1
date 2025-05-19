@@ -99,3 +99,14 @@ body {
   color: #E4A11B;
   cursor: pointer;
 }
+
+/* reset accordion */
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #FFC107;
+}
+
+.accordion-button:focus, .accordion-button:active {
+  box-shadow: none;
+  color: #FFC107;
+}
