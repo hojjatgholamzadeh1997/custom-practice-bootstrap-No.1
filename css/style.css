@@ -1,4 +1,4 @@
-/* global */
+/* Global Styles */
 body {
   padding-top: 32.5px;
 }
@@ -9,7 +9,7 @@ body {
   }
 }
 
-/* custom font-sizes */
+/* Custom Font Sizes */
 .font-small {
   font-size: 14px;
 }
@@ -27,7 +27,7 @@ body {
   }
 }
 
-/* reset navbar-toggler-focus-width  */
+/* Reset navbar-toggler-focus-width  */
 .navbar {
   --bs-navbar-toggler-focus-width: 0;
 }
@@ -94,13 +94,13 @@ body {
   }
 }
 
-/* carousel */
+/* Carousel */
 .carousel-caption h5:hover {
   color: #E4A11B;
   cursor: pointer;
 }
 
-/* reset accordion */
+/* Reset Accordion Styles */
 .accordion-button:not(.collapsed) {
   background-color: transparent;
   color: #FFC107;
